@@ -1,0 +1,45 @@
+{
+    "user" : {
+        "fullName": "Brian Mahlatse Malau",
+        "photo" : "../images/profile.jpg"
+    },
+    "socialAccounts":{
+        "github":"https://github.com/Brianmahlatse",
+        "linkedin":"https://www.linkedin.com/in/brian-mahlatse-malau/"
+    },
+    "city" : {
+        "name" : "Capetown",
+        "photo" : "../images/capetown.png",
+        "description" : "Cape Town, located in South Africa, is a city that captivates me with its stunning natural beauty and vibrant culture. I am drawn to Cape Town because of its breathtaking landscapes, including Table Mountain, pristine beaches, and picturesque coastlines. The city offers a unique blend of modern city life and rich historical heritage. Exploring the diverse neighborhoods, indulging in delicious cuisine, and experiencing the warmth and hospitality of the locals are some of the reasons why Cape Town is on my travel bucket list."
+    },
+    "foreignLanguage" : {
+        "language" :   "Swahili  is a major language in East Africa and is spoken by millions of people in countries such as Kenya, Tanzania, Uganda, Rwanda, and the Democratic Republic of Congo. By learning Swahili, I would be able to communicate with locals, immerse myself in the vibrant East African culture, and have a deeper understanding of the region's history and traditions.",
+        "phrases" : [{
+            "englishPhrase" : "One who is not taught by their mother will be taught by the world.",
+            "foreignLanguage" : "Asiyefunzwa na mamae hufunzwa na ulimwengu."
+        },
+        {
+            "englishPhrase" : "Knowledge is wealth.",
+            "foreignLanguage" : "Akili ni mali"
+        }]
+    },
+    "qualification":{
+        "name":"Bsc Mathematical Science",
+        "institution":"University of Limpopo"
+        },
+    "favouriteSubjects" : [
+        {   "name":"Artificial Intelligence (AI)",
+            "photo" : "./images/Artificial-Intelligence.jpg",
+            "description" : " is a field of study that focuses on creating intelligent machines capable of performing tasks that typically require human intelligence. It involves developing algorithms and models that enable machines to learn, reason, perceive, and make decisions."
+        
+        },
+        {   "name":"Statistical Inference",
+            "photo" : "./images/statistical-inference.jpg",
+            "description" : " is a branch of statistics that involves drawing conclusions or making predictions about a population based on sample data. It encompasses techniques for estimating parameters, testing hypotheses, and assessing uncertainty in statistical models."
+        },
+        {    "name":"Database Systems",
+            "photo" : "./images/database.jpg",
+            "description" : " refer to software systems designed to manage and organize large volumes of structured data efficiently. They provide mechanisms for storing, retrieving, and manipulating data, ensuring data integrity, and supporting concurrent access."
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+    .home-page-body {
+      background-color:  rgb(51, 51, 51);
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+      color: aliceblue;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .home-container {
+      width: 30%;
+      min-width: 250px;
+      max-width: 500px;
+      justify-content: center;
+      align-items: center;
+      min-height: 30vh;
+      background-color: rgb(51, 51, 51,0.99);
+      margin: 0 auto;
+      border-radius: 1px;
+      padding-bottom: -50px;
+      border: 1px rgb(226, 218, 218) solid; 
+    }
+   .intro{
+      padding: 2px 10px;
+      color: rgb(228, 217, 217);
+      color: aliceblue;
+   }
+    
+    .boostrap-button{
+      justify-content: right;
+    }
+    .materilized-button{
+      justify-content: left;
+    }
+    input[type="button"]{
+       color: white;
+       padding: 5px 20px;
+       margin: 0 2px;
+       background-color: rgb(8, 1, 1);
+       border-color: rgb(205, 205, 220);
+       color:rgb(135, 206, 235);
+       font-weight: bold;
+    }
+    .buttons{
+      justify-content: center;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      padding-bottom: 10px;
+      
+    }
+    input[type="button"]:hover{
+     border-color: rgb(57, 57, 224);
+    }
+  
+  /*Boostrap page styles*/
+  main{
+    padding: 0 3%;
+  }
+
+  .city-description {
+   min-width: 230px;
+   max-height: 300px; /* Set the maximum height as needed */
+   overflow-y: auto; /* Add scrollbars if content exceeds the height */
+ }
+
+ 
+ caption {
+   caption-side: top;
+
+ }
+
+
+ /* CSS for the loading page */
+ #loading-page {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+ }
+ #loading-spinner {
+   width: 50px;
+   height: 50px;
+   border: 5px solid #ccc;
+   border-top-color: #333;
+   border-radius: 50%;
+   animation: spin 1s infinite linear;
+ }
+ @keyframes spin {
+   0% { transform: rotate(0deg); }
+   100% { transform: rotate(360deg); }
+ }
+ #content {
+   display: none;
+ }
+
+
+ /*materilized*/
+
+ 

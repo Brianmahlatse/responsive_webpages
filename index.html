@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Responsive Web Pages</title>
+
+    <script>
+        function bootstrap(){
+            window.location.href="index-bootstrap.html";
+        };
+        function materialize(){
+            window.location.href="index-materialize.html";
+        }
+        
+    </script>
+</head>
+<body  class="home-page-body">
+    
+    <h1>Responsive Web Pages</h1>
+    <div class="home-container">
+        <div class="intro">
+            Welcome to my responsive web pages project! I've created two versions of my web page to showcase 
+            different styles. One version is styled using Bootstrap, a popular CSS framework known for its 
+            sleek and modern designs. The other version is styled using Materialize, another fantastic CSS 
+            framework that offers a unique and vibrant visual aesthetic. Feel free to explore both versions 
+            by clicking the buttons below!
+        </div>
+        <hr>
+        <div class="buttons">
+            <div class="boostrap-button">
+                <input type="button" id="next-page" onclick="bootstrap()" value="bootstrap">
+            </div>
+            <div class="materilized-button">
+                <input type="button" id="next-page" onclick="materialize()" value="materialize">
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

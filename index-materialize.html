@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="./scripts/main.js"></script>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Materialized web based</title>
+    
+</head>
+<body>
+    <div id="loading-page">
+        <div id="loading-spinner"></div>
+    </div>
+    <main class="content container">
+        <div class="row valign-middle">
+            <div class="col m6 right-align" >
+                <img src="{{user.photo}}" alt="profile picture" class="responsive-img">
+            </div>
+            <div class="col m6">
+                <h5>{{user.fullName}}</h5>
+                <p>{{qualification.name}}</p>
+                <p>{{qualification.institution}}</p>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="row">
+            <div class="col s12">
+                {{city.name}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m6">
+                <img src="{{city.photo}}" alt="City picture" class="responsive-img">
+            </div>
+            <div class="col s12 m6">
+                {{city.description}}
+            </div>
+        </div>
+
+        <div class="divider"></div>
+        <div>
+            <section>
+                {{foreignLanguage.language}}
+            </section>
+            <table class="striped responsive-table">
+                <thead>
+                    <tr>
+                        <th>English phrase</th>
+                        <th>Swahili phrase</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#with foreignLanguage}}
+                        {{#each phrases}}
+                            <tr>
+                                <td>{{englishPhrase}}</td>
+                                <td>{{foreignLanguage}}</td>
+                            </tr>
+                        {{/each}}
+                    {{/with}}
+                </tbody>
+            </table>
+        </div>
+
+        <div class="divider"></div>
+        <div class="row">
+            <div class="col s12">
+                <div class="center-align">
+                    Favourite modules
+                </div>
+                {{#each favouriteSubjects}}
+                <div class="col s12 m4 l4">
+                    <div class="card-image col">
+                        <img src="{{photo}}" alt="" class="responsive-img fixed-image">
+                    </div>
+                    <div class="card-content col">
+                        {{name}}{{description}}
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="center-align">
+            To go to the <a href="index.html">Home page</a> or the <a href="index-bootstrap.html">Bootstrap page</a>, click on the respective link.
+        </div>
+        
+    </main>
+</body>
+</html>
