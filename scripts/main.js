@@ -5,7 +5,6 @@ function materialize(){
     window.location.href="index-materialize.html";
 }
 
-
 function goToGithub(){
     window.location.href="https://github.com/Brianmahlatse";
 }
