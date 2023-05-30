@@ -1,9 +1,12 @@
     .home-page-body {
       background-color:  rgb(51, 51, 51);
       font-family: Arial, sans-serif;
-      align-items: center;
+      
     }
-
+    main{
+      padding: 0 5%;
+    }
+ 
     h1 {
       text-align: center;
       color: aliceblue;
@@ -14,9 +17,6 @@
       width: 30%;
       min-width: 250px;
       max-width: 500px;
-      justify-content: center;
-      align-items: center;
-      min-height: 30vh;
       background-color: rgb(51, 51, 51,0.99);
       margin: 0 auto;
       border-radius: 1px;
@@ -56,9 +56,7 @@
     }
   
   /*Boostrap page styles*/
-  main{
-    padding: 0 5%;
-  }
+  
 
   .city-description {
    min-width: 230px;
