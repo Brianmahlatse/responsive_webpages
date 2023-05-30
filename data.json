@@ -1,7 +1,7 @@
 {
     "user" : {
         "fullName": "Brian Mahlatse Malau",
-        "photo" : "../images/profile.jpg"
+        "photo" : "./images/profile.jpg"
     },
     "socialAccounts":{
         "github":"https://github.com/Brianmahlatse",
@@ -9,7 +9,7 @@
     },
     "city" : {
         "name" : "Capetown",
-        "photo" : "../images/capetown.png",
+        "photo" : "./images/capetown.png",
         "description" : "Cape Town, located in South Africa, is a city that captivates me with its stunning natural beauty and vibrant culture. I am drawn to Cape Town because of its breathtaking landscapes, including Table Mountain, pristine beaches, and picturesque coastlines. The city offers a unique blend of modern city life and rich historical heritage. Exploring the diverse neighborhoods, indulging in delicious cuisine, and experiencing the warmth and hospitality of the locals are some of the reasons why Cape Town is on my travel bucket list."
     },
     "foreignLanguage" : {
