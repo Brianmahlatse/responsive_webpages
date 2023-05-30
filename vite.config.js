@@ -1,5 +1,5 @@
 import handlebars from 'vite-plugin-handlebars';
-import data from './data.json' assert { type: 'json' };
+import data from './data.json';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
