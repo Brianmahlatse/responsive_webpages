@@ -64,7 +64,11 @@
    overflow-y: auto; /* Add scrollbars if content exceeds the height */
  }
 
- 
+ .subject-description{
+   min-width: 180px;
+   max-height: 300px;
+   overflow-y: auto;
+ }
  caption {
    caption-side: top;
  }
